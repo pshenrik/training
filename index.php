@@ -1,22 +1,8 @@
 <?php
-
-class Dady
-{
-	public function getSon()
-	{
-		return "BOY -.-";
-	}
-	
-	public function getDaughter()
-	{
-		return "Girl o.O";
-	}
+class Parent {
+  // The parent’s class code
 }
-
-class Child extends Dady
-{
-	
+ 
+class Child extends Parent {
+  // The  child can use the parent's class code
 }
-
-$dady = new Dady();
-echo "Its a ".$dady->getDaughter();
